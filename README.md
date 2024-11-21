@@ -1,5 +1,5 @@
 # PREanalysis
-## instaliing CMSSW
+## Installing CMSSW
 
 ```
 cmsrel CMSSW_14_0_11
@@ -8,7 +8,7 @@ cmsenv
 
 ```
 
-## Tracker analyzer
+## Tracker Analyzer
 
 ```
 git clone https://github.com/vmuralee/PREanalysis.git -b <your branch>
@@ -16,7 +16,7 @@ cd PREanalysis/TrackAna
 scram b -j 32
 ```
 
-## Running analyzer
+## Running Analyzer
 
 ```
 cmsRun python/Trackanalyzer_cfg.py 
